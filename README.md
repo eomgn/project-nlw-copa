@@ -10,7 +10,7 @@
 ---
 
 <p align="center">
-  <img alt="imagem do Projeto" src="./public/github.png" width="100%">
+  <img alt="imagem do Projeto" src="./assets/preview.png" width="100%">
 </p>
 
 ---
@@ -25,11 +25,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto é uma maratona da Rocketseat chamada de NLW
+O projeto é uma maratona da Rocketseat chamada de NLW - Next Lever Week. Que dessa vez a maratona teve como tema a Copa do Mundo 2022.
+O projeto teve como principal tecnologia o JavaScript, utilizando funções para que os dados de dias e jogos fossem adicionados no HTML.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh).
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/duueF4iu5bJCtC23uyfI83/Calend%C3%A1rio-de-Jogos-(Community)?node-id=0%3A1>).
 
 ---
 

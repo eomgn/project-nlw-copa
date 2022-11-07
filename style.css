@@ -10,6 +10,56 @@
    font-family: 'Roboto', sans-serif;
 }
 
+/*-----------*/
+/*--- alter theme */
+.theme {
+   width: 50px;
+   height: 20px;
+   background-color: #ddd;
+   border-radius: 10px;
+
+   margin-top: 15px;
+   margin-left: 7px;
+}
+
+#button {
+   display: none;
+}
+
+.toggle {
+   width: 20px;
+   height: 20px;
+   display: block;
+   cursor:pointer;
+   position: relative;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   background-color: #338af3;
+   border: 1px solid whitesmoke;
+   border-radius: 50%;
+   transition: .5s cubic-bezier(0.895,0.07,0.685,0.68);
+}
+
+.toggle::before {
+   content: '';
+   position: absolute;
+   top: 14px;
+   left: 12px;
+}
+
+.toggle::after {
+   content: '';
+   position: absolute;
+   top: 14px;
+   left: 10px;
+}
+
+#button:checked + .toggle {
+   left: 30px;
+   background-color: #f7dd43;
+}
+
 :root {
    --card-color-primary: #f7dd43;
    --card-title-border-color-color: #746615;

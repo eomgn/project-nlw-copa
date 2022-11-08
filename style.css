@@ -30,34 +30,21 @@
    width: 20px;
    height: 20px;
    display: block;
-   cursor:pointer;
+   cursor: pointer;
    position: relative;
    top: 0;
    left: 0;
    z-index: 1;
    background-color: #338af3;
-   border: 1px solid whitesmoke;
+   border: 1px solid #338af3;
    border-radius: 50%;
-   transition: .5s cubic-bezier(0.895,0.07,0.685,0.68);
-}
-
-.toggle::before {
-   content: '';
-   position: absolute;
-   top: 14px;
-   left: 12px;
-}
-
-.toggle::after {
-   content: '';
-   position: absolute;
-   top: 14px;
-   left: 10px;
+   transition: 0.5s cubic-bezier(0.895, 0.07, 0.685, 0.68);
 }
 
 #button:checked + .toggle {
    left: 30px;
    background-color: #f7dd43;
+   border: 1px solid #f7dd43;
 }
 
 :root {
@@ -92,6 +79,7 @@ body {
    background-position: top center;
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 
 #app {

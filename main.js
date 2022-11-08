@@ -129,13 +129,12 @@ function createGame(player1, hour, player2) {
 
 const button = document.querySelector('#button')
 
-button.addEventListener('click', () =>{
+button.addEventListener('click', () => {
    if (button.checked) {
       document.body.classList.remove('temeblue')
       document.body.classList.add('temeyellow')
-   
-} else  {
-   document.body.classList.add('temeblue')
-   document.body.classList.remove('temeyellow')}}
-)
-
+   } else {
+      document.body.classList.add('temeblue')
+      document.body.classList.remove('temeyellow')
+   }
+})
